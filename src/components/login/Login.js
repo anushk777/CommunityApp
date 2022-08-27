@@ -8,10 +8,13 @@ const Login = () => {
         </div>
         <div className="bottom-cont">
             <form>
-                <input type="text" name="username" id="username" placeholder="Enter Username"/>
-                <input type="password" name="password" id="password" placeholder="Enter Password"/>
-                <button type="submit">Login</button>
+                <input type="text" name="username" id="username" placeholder="Enter Username..." autofocus="true"/>
+                <input type="password" name="password" id="password" placeholder="Enter Password..."/>
+                <button type="submit" className="login-btn">Login</button>
             </form>
+
+            <p className="para">Don't have an account</p>
+            <a href="/" className="signup-link">Sign Up</a>
         </div>
     </div>
   )

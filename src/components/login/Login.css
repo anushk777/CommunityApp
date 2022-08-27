@@ -12,5 +12,48 @@
 .top-cont h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  
+  padding: 9rem 0 3rem;
+}
+
+#username{
+  display: block;
+  margin: auto;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+#password{
+  display: block;
+  margin: auto;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.login-btn{
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: tomato;
+  border-color: tomato;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.login-btn:hover{
+  background: none;
+  color: tomato;
+  transition-duration: 500ms;
+}
+
+.para{
+  font-size: 1rem;
+}
+
+.singup-link{
+  text-decoration: none;
 }
