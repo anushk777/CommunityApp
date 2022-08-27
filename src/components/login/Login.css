@@ -1,0 +1,16 @@
+.login-container{
+  background: url("./login-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  /* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+}
+
+.top-cont h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  
+}
