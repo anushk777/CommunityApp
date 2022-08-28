@@ -1,57 +1,101 @@
 .signup-container{
-  background: url("./login-bg.jpg");
+  background: url("./../assets/auth-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   text-align: center;
-  /* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
 }
 
-.top-cont h1{
+.signup-container .top-cont h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  padding: 9rem 0 3rem;
+  padding: 3rem 0 3rem;
 }
 
-#username{
+.signup-container #fName{
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup-container #lName{
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup-container #branch{
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.signup-container #curr-sem{
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.signup-container #sign-email{
   display: block;
   margin: auto;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-#password{
+.signup-container #password{
   display: block;
   margin: auto;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-#confirmpassword{
+.signup-container #confirmpassword{
   display: block;
   margin: auto;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-#email{
+.signup-container #email{
   display: block;
   margin: auto;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   border-radius: 1rem;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-.signup-btn{
+.signup-container .signup-btn{
   padding: 1rem 4rem;
   font-size: 1.5rem;
   border-radius: 1rem;
@@ -60,10 +104,36 @@
   border-color: tomato;
   cursor: pointer;
   margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-.signup-btn:hover{
+.signup-container .signup-btn:hover{
   background: none;
   color: tomato;
+  transition-duration: 500ms;
+}
+
+
+.signup-container .login-btn{
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: rgb(28, 203, 180);
+  border-color: rgb(28, 203, 180);
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.signup-container .login-btn:hover{
+  background: none;
+  color: rgb(28, 203, 180);
   transition-duration: 500ms;
 }
